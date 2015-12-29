@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Graph
+Bundle-SymbolicName: sc.eclipse.jsgraph;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sc.eclipse.graph.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.core.resources,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.browser,
+ org.eclipse.jetty.server,
+ org.eclipse.jetty.util,
+ org.eclipse.ui.forms
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
